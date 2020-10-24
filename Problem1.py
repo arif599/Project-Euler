@@ -30,11 +30,10 @@ if __name__ == "__main__":
     print(f"--- {time.time() - start_time} seconds ---")
 
 
+'''
 import time
 start_time = time.time()
 
-
-'''
 VERSION 1: 0.0071239471435546875 seconds
 def main():
     print(sumOfMultiples(3,5,10))
