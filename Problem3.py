@@ -15,7 +15,7 @@ def primeFactors(number):
     appendCounter = 0
 
     for i in range(2, number):
-        if number%i == 0 and i%2 != 0:
+        if number%i == 0:
             factors.append(i)
             result *= factors[appendCounter]
             appendCounter += 1  
